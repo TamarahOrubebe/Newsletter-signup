@@ -23,7 +23,7 @@ app.post("/", function (req, res) {
             {
                 email_address: email,
                 status: "subscribed",
-                merge_fileds: {
+                merge_fields: {
                 FNAME: firstName,
                 LNAME: lastName
                         }
